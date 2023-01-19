@@ -77,9 +77,9 @@ g++ -std=c++17 main.cpp gender.h person.h room.h -lpthread -o solution
 
 ### Ввод и вывод данных
 Реализован консольный ввод и вывод данных.
-<p align="center">
-<img src='assets/console.jpg' alt="alt of image">
-</p>
+
+
+
 <p align="center">
 <em>Пример консольного ввода и вывода.</em>
 </p>
