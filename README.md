@@ -78,7 +78,7 @@ g++ -std=c++17 main.cpp gender.h person.h room.h -lpthread -o solution
 ### Ввод и вывод данных
 Реализован консольный ввод и вывод данных.
 <p align="center">
-<img src=screenshots/console_io.jpg alt="alt of image">
+<img src='screenshots/console.jpg' alt="alt of image">
 </p>
 <p align="center">
 <em>Пример консольного ввода и вывода.</em>
@@ -94,7 +94,7 @@ g++ -std=c++17 main.cpp gender.h person.h room.h -lpthread -o solution
 ## Критерии на 6 баллов
 ### Описание обощенного алгоритма
 <p align="center">
-<img src=screenshots/scheme.png alt="alt of image">
+<img src='screenshots/scheme.png' alt="alt of image">
 </p>
 
 В программном коде клиенты проецируются на потоки. Чтобы ситуация была более равноправной, мы дожидаемся, пока все потоки запустятся, именно потому мы ставим барьер.  
@@ -112,7 +112,7 @@ g++ -std=c++17 main.cpp gender.h person.h room.h -lpthread -o solution
 ### Ввод из командной строки
 Данные вводятся при помощи соответствующих опций `-m` и `-f`, описанных в [формате работы программы](#формат-работы-программы).
 <p align="center">
-<img src=screenshots/cli_io.jpg alt="alt of image">
+<img src='screenshots/cli_io.jpg' alt="alt of image">
 </p>
 <p align="center">
 <em>Демонстрация ввода из командной строки.</em>
@@ -121,7 +121,7 @@ g++ -std=c++17 main.cpp gender.h person.h room.h -lpthread -o solution
 ## Критерии на 7 баллов
 ### Файловый ввод и вывод
 <p align="center">
-<img src=screenshots/file_io.jpg alt="alt of image">
+<img src='screenshots/file_io.jpg' alt="alt of image">
 </p>
 <p align="center">
 <em>Демонстрация файлового ввода/вывода.</em>
@@ -133,7 +133,7 @@ g++ -std=c++17 main.cpp gender.h person.h room.h -lpthread -o solution
 ### Вывод в консоль и в файл
 Программа может выводить одновременно данные и в консоль и в файл. Для этого нужно задать соответствующие опции, описанные в [формате работы программы](#формат-работы-программы).
 <p align="center">
-<img src=screenshots/double_io.jpg alt="alt of image">
+<img src='screenshots/double_io.jpg' alt="alt of image">
 </p>
 <p align="center">
 <em>Демонстрация вывода в консоль и файл.</em>
@@ -144,7 +144,7 @@ g++ -std=c++17 main.cpp gender.h person.h room.h -lpthread -o solution
 ### Генератор случайных данных
 Чтобы работать с генератором случайных данных, нужно укзать опции `-r` и `-s SEED` (при необходимости).  
 <p align="center">
-<img src=screenshots/random.jpg alt="alt of image">
+<img src='screenshots/random.jpg' alt="alt of image">
 </p>
 <p align="center">
 <em>Демонстрация генерации случайных входных данных.</em>
@@ -159,7 +159,7 @@ g++ -std=c++17 main.cpp gender.h person.h room.h -lpthread -o solution
 ### Тестирование без синхропримитивов
 Попробуем запустить программу на некоторых данных:
 <p align="center">
-<img src=screenshots/broken.jpg alt="alt of image">
+<img src='screenshots/broken.jpg' alt="alt of image">
 </p>
 <p align="center">
 <em>Упс...</em>
